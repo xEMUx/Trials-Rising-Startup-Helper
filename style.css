@@ -99,7 +99,7 @@ flex-wrap:wrap;
 
 .donate-btn, .mail-btn{
 padding:12px 30px;
-border:none;
+border: 2px solid #0d1624;
 border-radius:10px;
 background:#00d9ff;
 color:#021018;
@@ -147,6 +147,8 @@ box-shadow:
 .video-container {
     position: relative;
     width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
     aspect-ratio: 16 / 9;
     overflow: hidden;
     border: 1px solid rgba(32, 245, 208, 0.5);
@@ -157,26 +159,11 @@ box-shadow:
         0 0 80px rgba(32, 245, 208, 0.05);
 }
 
-.video-container iframe {
-    width: 100%;
-    height: 100%;
-    display: block;
-    border: 0;
-}
-
 .video-caption {
     margin-top: 14px;
     text-align: center;
     color: #7d8b9b;
     font-size: 14px;
-}
-
-
-
-.video-container {
-width: 100%;
-max-width: 800px;
-margin: 0 auto;
 }
  
 .video-container iframe {
