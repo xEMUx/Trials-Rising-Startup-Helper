@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <AssemblyName>Trials Rising Startup Helper</AssemblyName>
+    <RootNamespace>Trials Rising Startup Helper</RootNamespace>
+
+    <!-- App information -->
+    <Product>Trials Rising Startup Helper</Product>
+    <Company>xxxEMUxxx</Company>
+    <Authors>xxxEMUxxx</Authors>
+    <Copyright>Copyright © 2026 xxxEMUxxx</Copyright>
+    <Description>Trials Rising Startup Helper</Description>
+
+    <!-- Version -->
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0</Version>
+
+    <!-- Windows icon -->
+    <ApplicationIcon>TrialsRisingHelper.ico</ApplicationIcon>
+
+    <!-- Release -->
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+
+    <!-- No debug information -->
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="TrialsRisingHelper.ico" />
+  </ItemGroup>
+
+</Project>
