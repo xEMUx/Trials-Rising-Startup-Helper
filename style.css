@@ -167,8 +167,9 @@ box-shadow:
 }
  
 .video-container iframe {
+position: absolute;
+inset: 0;
 width: 100%;
-aspect-ratio: 16 / 9;
-display: block;
+height: 100%;
 border: 0;
 }
