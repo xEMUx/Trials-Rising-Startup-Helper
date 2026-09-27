@@ -59,12 +59,13 @@ display:inline-block;
 padding:15px 40px;
 text-decoration:none;
 color:white;
-background:linear-gradient(45deg,#00cfff,#008cff);
+background:#008cff;
+border: 2px solid #0d1624;
 border-radius:12px;
 font-size:1.1rem;
 font-weight:bold;
 transition:.3s;
-box-shadow:0 0 15px #00cfff;
+box-shadow:0 0 0 #00cfff;
 }
 
 .download-btn:hover{
