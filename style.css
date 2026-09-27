@@ -179,3 +179,19 @@ box-shadow:
     display: block;
     border: 0;
 }
+
+.github-link {
+margin-top: 20px;
+}
+
+.github-link a {
+color: #00d9ff;
+text-decoration: none;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.github-link a:hover {
+color: #66ecff;
+text-shadow: 0 0 10px #00d9ff;
+}
