@@ -128,10 +128,6 @@ box-shadow:
     padding: 15px 40px;
 }
 
-
-
-
-
 .tutorial-section {
     margin: 60px auto;
     max-width: 1000px;
@@ -164,7 +160,7 @@ box-shadow:
     color: #7d8b9b;
     font-size: 14px;
 }
- 
+
 .video-container iframe {
     height: 100%;
     display: block;
