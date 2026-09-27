@@ -2,6 +2,9 @@
 
 A lightweight Windows utility designed to help launch **Trials Rising** on systems where the game may experience startup issues.
 
+Download:
+https://xemux.github.io/Trials-Rising-Startup-Helper/
+
 ## Requirements
 
 * Windows 10 / Windows 11 (64-bit)
